@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./static/style.css" />
+    <script src="./build/index.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="layout">
+        <div class="container">
+          <header>
+            <h1>Motion</h1>
+            <div class="buttons">
+              <button class="create-button" data-type="image">IMAGE</button>
+              <button class="create-button" data-type="video">VIDEO</button>
+              <button class="create-button" data-type="note">NOTE</button>
+              <button class="create-button" data-type="task">TASK</button>
+            </div>
+          </header>
+          <section class="article-section">article-section</section>
+        </div>
+      </div>
+      <!-- <div class="modal-background">
+        <div class="modal">
+          <header class="modal__header">
+            <button class="material-icons close-button">close</button>
+          </header>
+          <form class="modal__form">
+            <div class="form__field title">
+              <label>title</label>
+              <input class="title" type="text" name="title" />
+            </div>
+            <div class="form__field value">
+              <label>URL</label>
+              <input type="text" name="value" />
+            </div>
+            <button>생성</button>
+          </form>
+        </div>
+      </div> -->
+    </div>
+  </body>
+</html>

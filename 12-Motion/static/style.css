@@ -1,0 +1,40 @@
+.modal-background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.modal {
+  padding: 1.5rem;
+  background: white;
+  width: 100%;
+  max-width: 640px;
+  display: grid;
+}
+
+.modal .modal__header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal .modal__form {
+  display: grid;
+  gap: 1rem;
+}
+
+.modal .modal__form .form__field {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.modal .modal__form .form__field input {
+  border: solid gray 1px;
+  padding: 1rem;
+}
