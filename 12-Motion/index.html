@@ -13,43 +13,76 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./static/style.css" />
-    <script src="./build/index.js" defer></script>
-    <title>Document</title>
+    <script type="module" src="./build/app.js" defer></script>
+    <title>Motion</title>
   </head>
   <body>
     <div id="app">
-      <div class="layout">
-        <div class="container">
-          <header>
-            <h1>Motion</h1>
-            <div class="buttons">
-              <button class="create-button" data-type="image">IMAGE</button>
-              <button class="create-button" data-type="video">VIDEO</button>
-              <button class="create-button" data-type="note">NOTE</button>
-              <button class="create-button" data-type="task">TASK</button>
-            </div>
-          </header>
-          <section class="article-section">article-section</section>
-        </div>
+      <div
+        class="w-full mx-auto max-w-3xl min-h-screen bg-gray-100 flex flex-col"
+      >
+        <header class="grid gap-6 py-6 px-4 bg-gray-900 justify-items-center">
+          <h1 class="text-3xl font-bold text-red-400 text-center">Motion</h1>
+          <div class="flex gap-4">
+            <button
+              class="
+                text-white
+                font-bold
+                py-2
+                px-4
+                bg-red-600
+                rounded
+                create-button
+              "
+            >
+              IMAGE
+            </button>
+            <button
+              class="
+                text-white
+                font-bold
+                py-2
+                px-4
+                bg-red-600
+                rounded
+                create-button
+              "
+            >
+              VIDEO
+            </button>
+            <button
+              class="
+                text-white
+                font-bold
+                py-2
+                px-4
+                bg-red-600
+                rounded
+                create-button
+              "
+            >
+              NOTE
+            </button>
+            <button
+              class="
+                text-white
+                font-bold
+                py-2
+                px-4
+                bg-red-600
+                rounded
+                create-button
+              "
+            >
+              TODO
+            </button>
+          </div>
+        </header>
+        <main class="document flex-1"></main>
+        <footer class="py-4 px-2 font-bold bg-gray-200">
+          © CopyRight by BH
+        </footer>
       </div>
-      <!-- <div class="modal-background">
-        <div class="modal">
-          <header class="modal__header">
-            <button class="material-icons close-button">close</button>
-          </header>
-          <form class="modal__form">
-            <div class="form__field title">
-              <label>title</label>
-              <input class="title" type="text" name="title" />
-            </div>
-            <div class="form__field value">
-              <label>URL</label>
-              <input type="text" name="value" />
-            </div>
-            <button>생성</button>
-          </form>
-        </div>
-      </div> -->
     </div>
   </body>
 </html>

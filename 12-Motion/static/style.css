@@ -1,3 +1,51 @@
+/* Container */
+/* .container {
+  width: 100%;
+  min-height: 100vh;
+  max-width: 768px;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+} */
+
+.container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container .buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.container .buttons button {
+  padding: 0.5rem 1rem;
+  background: white;
+  border-radius: 0.5rem;
+}
+
+.container .buttons button:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+
+/* ArticleSection */
+.article-section {
+  padding: 1.5rem 1rem;
+  display: grid;
+}
+
+.article-section article {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem;
+  background: white;
+}
+
+/* Modal */
 .modal-background {
   position: absolute;
   top: 0px;
